@@ -15,10 +15,10 @@ public class LargestSum {
         int beforeMax = 0;
 
         for (int n : nums){
-            if (max < n){
+            if (max < n) {
                 beforeMax = max;
                 max = n;
-            } else if (beforeMax < n){
+            } else if (beforeMax < n) {
                 beforeMax = n;
             }
         }
